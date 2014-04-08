@@ -1,0 +1,16 @@
+<html>
+<title> Memory Game! </title>
+<body>
+       <form target="_blank" method="get" id="selectplayer">
+<input type="radio" name="Single Player" value="Single Player">Single Player<br>
+<input type="radio" name="Double Player" value="Double Player">Double Player<br>
+<input type="submit">
+        </form>
+<script>
+document.getElementbyID("selectplayer").onsubmit = function(){
+	window.location.href="/static/memorygame.html";
+};
+</script>
+</body>
+
+</html> 
